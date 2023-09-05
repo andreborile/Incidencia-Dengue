@@ -20,4 +20,4 @@ https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-popul
 5. Cria variável para incidência e gera um arquivo CSV para cada ano
 
 ## Modo usar
-Abra o arquivo e rode-o.
+Abra o arquivo "main.py" e rode-o.
