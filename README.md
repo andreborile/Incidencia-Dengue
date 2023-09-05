@@ -1,5 +1,5 @@
 # Definição do Problema
-Calcular a taxa de incidência anual de dengue para os municípios do estado de Santa Catarina para os anos de 2018 a 2021
+Calcular a taxa de incidência anual de dengue para os municípios do estado de Santa Catarina para os anos de 2018 a 2021 usando Python e SQLite
 
 A taxa se dá pela fórmula: número de novos casos/número de pessoas em risco
 
@@ -15,3 +15,4 @@ https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-popul
 ## Etapas
 1. Tratar os dados gerando um arquivo CSV
 2. Criar banco de dados
+3. Popular tabelas com base nos arquivos CSV
