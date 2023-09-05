@@ -16,3 +16,8 @@ https://www.ibge.gov.br/estatisticas/sociais/populacao/9103-estimativas-de-popul
 1. Tratar os dados gerando um arquivo CSV
 2. Criar banco de dados
 3. Popular tabelas com base nos arquivos CSV
+4. Consulta tabelas base na query SQL
+5. Cria variável para incidência e gera um arquivo CSV para cada ano
+
+## Modo usar
+Abra o arquivo e rode-o.

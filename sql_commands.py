@@ -4,7 +4,7 @@ cria_tab_municipio = ''' CREATE TABLE IF NOT EXISTS Municipio (
     PRIMARY KEY (id)
 );'''
 
-insert_municipio = ''' INSERT INTO Municipio
+insert_municipio = ''' INSERT OR IGNORE INTO Municipio
 VALUES (:id, :municipio);'''
 
 cria_tab_populacao = ''' CREATE TABLE IF NOT EXISTS Populacao (
@@ -15,7 +15,7 @@ cria_tab_populacao = ''' CREATE TABLE IF NOT EXISTS Populacao (
     FOREIGN KEY(id) REFERENCES Municipio(id)
 );'''
 
-insert_populacao = ''' INSERT INTO Populacao
+insert_populacao = ''' INSERT OR IGNORE INTO Populacao
 VALUES (:id, :ano, :populacao);'''
 
 cria_tab_dengue = ''' CREATE TABLE IF NOT EXISTS Dengue (
@@ -26,5 +26,5 @@ cria_tab_dengue = ''' CREATE TABLE IF NOT EXISTS Dengue (
     FOREIGN KEY(id) REFERENCES Municipio(id)
 );'''
 
-insert_dengue = ''' INSERT INTO Dengue
+insert_dengue = ''' INSERT OR IGNORE INTO Dengue
 VALUES (:id, :ano, :casos);'''
